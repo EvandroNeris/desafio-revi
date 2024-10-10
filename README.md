@@ -2,6 +2,8 @@
 
 Este é um projeto [Next.js](https://nextjs.org) criado com [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+### Veja o arquivo fluxo.md
+
 ## Como começar
 
 ### 1. Instalar dependências
