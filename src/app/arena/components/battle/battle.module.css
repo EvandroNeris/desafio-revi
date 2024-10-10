@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.monster {
+  width: 250px;
+  transition: transform 0.5s;
+}
+
+.attackLeft {
+  transform: translate(calc(100vw - 400px), -30px);
+}
+
+.attackRight {
+  transform: translate(calc(-100vw - -400px), -30px);
+}
+
+.returnLeft {
+  transform: translate(0, 0);
+}
+
+.returnRight {
+  transform: translate(0, 0);
+}

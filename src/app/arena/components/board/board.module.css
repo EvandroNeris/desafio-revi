@@ -1,0 +1,30 @@
+.screenInfo {
+  top: 5px;
+  align-items: center;
+  position: absolute;
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+}
+
+.monsterStatus {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.healthBar {
+  width: 100px;
+  height: 20px; 
+  background-color: #ddd; 
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+
+.healthFill {
+  height: 100%;
+  background-color: red;
+  transition: width 0.5s ease;
+  border-radius: 5px;
+}

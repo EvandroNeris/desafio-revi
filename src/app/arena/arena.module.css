@@ -1,0 +1,12 @@
+.bgArena {
+  background-image: url('../../../public/assets/images/environment/bg.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.startButtonArea {
+  position: absolute;
+  bottom: 300px;
+  left: 47%;
+}
